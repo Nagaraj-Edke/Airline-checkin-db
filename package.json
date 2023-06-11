@@ -2,7 +2,7 @@
   "name": "airline-node",
   "version": "1.0.0",
   "description": "",
-  "main": "server/mongo.server.js",
+  "main": "node server/mongo.server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/mongo.server.js",
