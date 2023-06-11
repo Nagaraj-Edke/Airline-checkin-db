@@ -7,6 +7,6 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 server.use(router);
 
-server.listen(3000, ()=>{
+server.listen(3000, () => {
   console.log('server started')
 })

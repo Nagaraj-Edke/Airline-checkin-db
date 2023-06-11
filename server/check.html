@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root {
+      --black: #26262626;
+    }
+
+    button {
+      background-color: #262626;
+      color: #cdcdcd;
+      padding: 10px 20px;
+      margin: 5px;
+      border: 1px solid;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: var(--black);
+      color: black;
+      border-color: var(--black);
+      transform: scale(1.1);
+      transition: ease-in-out 0.5s;
+    }
+
+    button:active {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button id="check" onclick="validate()"> Check</button>
+  <script>
+    function validate() {
+      const data = {
+        "username": "staff1",
+        "password": "Staff1",
+        "role": "staff"
+      };
+      fetch('http://localhost:5500/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      }).then(res => res.json()).then((data => {
+        console.log(data);
+      })).catch(err => {
+        console.log(err)
+      })
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,4 +1,208 @@
 {
+  "userCreds": [
+    {
+      "id": "staff1",
+      "username": "staff1",
+      "password": "Staff@1",
+      "role": "staff",
+      "userDetails": {
+        "firstName": "Raja",
+        "lastName": "Ram",
+        "name": "Raja Ram",
+        "email": "raja.ram@yopmail.com",
+        "provider": "AIRLINE"
+      }
+    },
+    {
+      "id": "staff2",
+      "username": "staff2",
+      "password": "Staff@2",
+      "role": "staff",
+      "userDetails": {
+        "firstName": "John",
+        "lastName": "Staff",
+        "name": "John Staff",
+        "email": "john.staff@yopmail.com",
+        "provider": "AIRLINE"
+      }
+    },
+    {
+      "id": "staff3",
+      "username": "staff3",
+      "password": "Staff@3",
+      "role": "staff",
+      "userDetails": {
+        "firstName": "Nagaraj",
+        "lastName": "Staff",
+        "name": "Nagaraj Staff",
+        "email": "nagaraj.staff@yopmail.com",
+        "provider": "AIRLINE"
+      }
+    },
+    {
+      "id": "admin1",
+      "username": "admin1",
+      "password": "Admin@1",
+      "role": "admin",
+      "userDetails": {
+        "firstName": "Alice",
+        "lastName": "Admin",
+        "name": "Alice Admin",
+        "email": "alice@yopmail.com",
+        "provider": "AIRLINE"
+      }
+    },
+    {
+      "id": "admin2",
+      "username": "admin2",
+      "password": "Admin@2",
+      "role": "admin",
+      "userDetails": {
+        "firstName": "Bob",
+        "lastName": "Admin",
+        "name": "Bob Admin",
+        "email": "Bob@yopmail.com",
+        "provider": "AIRLINE"
+      }
+    }
+  ],
+  "flights": [
+    {
+      "id": "GA-10",
+      "flightName": "Go Air",
+      "ancillaryServiceList": [
+        "Lounge access",
+        "Baggage",
+        "Wifi",
+        "Drinks"
+      ],
+      "shopItemList": [
+        "Pen",
+        "Snacks",
+        "News Paper",
+        "Water Bottle"
+      ],
+      "source": "HYD",
+      "destination": "MAA",
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "date": "20/01/2023",
+      "time": "10:15 AM",
+      "depatureDateAndTime": "20/01/2023 10:15 AM",
+      "arrivalDateAndTime": "20/01/2023 11:20 AM",
+      "duration": "01h 05m",
+      "format": "20F:ggg__ggg",
+      "specialMeals": [
+        "South Indian Special Meals",
+        "Butter chicken"
+      ],
+      "logo": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/AI.png?v=14"
+    },
+    {
+      "id": "GA-11",
+      "flightName": "Go Air",
+      "ancillaryServiceList": [
+        "Lounge access",
+        "Baggage"
+      ],
+      "shopItemList": [
+        "Pen",
+        "News Paper",
+        "Books",
+        "Magazine"
+      ],
+      "source": "HYD",
+      "destination": "DEL",
+      "from": "Hyderabad",
+      "to": "New Delhi",
+      "date": "20/01/2023",
+      "time": "10:30 AM",
+      "depatureDateAndTime": "20/01/2023 10:30 AM",
+      "arrivalDateAndTime": "20/01/2023 12:40 PM",
+      "duration": "02h 10m",
+      "format": "20F:ggg__ggg",
+      "specialMeals": [],
+      "logo": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/I5.png?v=14"
+    },
+    {
+      "id": "GA-15",
+      "flightName": "Go Air",
+      "ancillaryServiceList": [
+        "Lounge access",
+        "Baggage",
+        "Wifi",
+        "Drinks"
+      ],
+      "shopItemList": [
+        "Pen",
+        "News Paper",
+        "Cool Coffee"
+      ],
+      "source": "HYD",
+      "destination": "BOM",
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "date": "20/01/2023",
+      "time": "11:15 AM",
+      "depatureDateAndTime": "20/01/2023 11:15 AM",
+      "arrivalDateAndTime": "20/01/2023 01:00 PM",
+      "duration": "01h 45m",
+      "format": "20F:ggg__ggg",
+      "specialMeals": [],
+      "logo": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/6E.png?v=14"
+    },
+    {
+      "id": "GA-120",
+      "flightName": "Go Air",
+      "ancillaryServiceList": [
+        "Lounge access",
+        "Cookies",
+        "Drinks"
+      ],
+      "shopItemList": [
+        "News Paper"
+      ],
+      "source": "DEL",
+      "destination": "HYD",
+      "from": "New Delhi",
+      "to": "Hyderabad",
+      "date": "20/01/2023",
+      "time": "05:15 PM",
+      "depatureDateAndTime": "20/01/2023 05:15 PM",
+      "arrivalDateAndTime": "20/01/2023 07:30 PM",
+      "duration": "02h 15m",
+      "format": "20G:gg__ggg__gg",
+      "specialMeals": [
+        "Biryani"
+      ],
+      "logo": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/I5.png?v=14"
+    },
+    {
+      "id": "GA-558",
+      "flightName": "Go Air",
+      "ancillaryServiceList": [
+        "Lounge access",
+        "Baggage",
+        "Wifi"
+      ],
+      "shopItemList": [
+        "Pen",
+        "Magazine"
+      ],
+      "source": "DEL",
+      "destination": "MAA",
+      "from": "New Delhi",
+      "to": "Chennai",
+      "date": "20/01/2023",
+      "time": "07:40 PM",
+      "depatureDateAndTime": "20/01/2023 07:40 PM",
+      "arrivalDateAndTime": "20/01/2023 10:35 PM",
+      "duration": "02h 55m",
+      "format": "20F:ggg__ggg",
+      "specialMeals": [],
+      "logo": "https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/AI.png?v=14"
+    }
+  ],
   "passengers": [
     {
       "id": "P1AI20460",
