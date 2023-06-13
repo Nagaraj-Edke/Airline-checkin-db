@@ -8,5 +8,5 @@ server.use(jsonServer.bodyParser);
 server.use(router);
 
 server.listen(3001, () => {
-  console.log('server started')
+  console.log('server started');
 })
