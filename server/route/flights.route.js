@@ -34,8 +34,8 @@ async function updateFlightData(req, res) {
   }
 }
 
-flightsRoute.get('/flights', getAllFlights);
-flightsRoute.get('/flights/:flightId', getFlightDataByID);
-flightsRoute.patch('/flights/:flightId', updateFlightData);
+flightsRoute.get('', getAllFlights);
+flightsRoute.get('/:flightId', getFlightDataByID);
+flightsRoute.patch('/:flightId', updateFlightData);
 
 module.exports = flightsRoute;
